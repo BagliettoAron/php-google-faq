@@ -119,6 +119,34 @@ error_reporting(E_ALL);
         } ?>
 
 </div>
+<footer>
+    <div class="footer">
+        <div class="footerInner">
+
+
+            <div class="footerLeft">
+                <ul>
+                    <li>Google</li>
+                    <li>Tutto su Google</li>
+                    <li>Privacy</li>
+                    <li>Termini</li>
+                </ul>
+        
+            </div>
+        
+            <div class="footerRight">
+            <i class="fas fa-language"></i>
+                <select name="language" id="lang">
+                    <option value="Italiano">Italiano</option>
+                </select>
+        
+            </div>
+        </div>
+
+
+
+    </div>
+</footer>
     
 </body>
 </html>
