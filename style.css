@@ -1,3 +1,5 @@
+/* COMMON */
+
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +10,89 @@
 html{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* HEADER */
+
+.header{
+    width: 100%;
+    height: 50px;
+    padding-bottom: 10rem;
+}
+
+.header .headerTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* top left */
+.headerTop .topLeft{
+    display: flex;
+    align-items: center;
+}
+
+.headerTop .topLeft img{
+    width: 10rem;
+}
+
+.topLeft .logoTerms {
+    color: rgb(100, 100, 100);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* top right */
+.headerTop .topRight{
+    display: flex;
+    align-items: center;
+}
+
+.topRight i{
+    color: rgb(100, 100, 100);
+    font-size: 1.5rem;
+}
+
+.topRight img{
+    border-radius: 50%;
+    width: 2.5rem;
+    margin: 0 1rem;
+}
+
+/* header bottom */
+.headerBottom{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+.headerBottom ul{
+    display: flex;
+    
+}
+
+.headerBottom li{
+    padding: 0 1rem;
+    list-style: none;
+    color: rgb(100, 100, 100);
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+}
+
+.headerBottom .faq{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #3367d6;
+    color: #3367d6;
+}
+
+
+
+
+
+
+
+
+
+/* MAIN SECTION */
 
 .mainSection{
     width: 60%;

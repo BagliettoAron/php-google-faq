@@ -72,8 +72,42 @@ error_reporting(E_ALL);
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+<header>
+    <div class="header">
+        <div class="headerTop">
+            <div class="topLeft">
+            <img src="./img/google_img.jpg" alt="Google Logo">
+            <span class="logoTerms">Privacy e Termini</span>
+            </div>
+
+            <div class="topRight">
+            <i class="fas fa-bars"></i>
+            <img src="./img/boolean_img.png" alt="Boolean Logo">
+
+
+            </div>
+
+        </div>
+
+        <div class="headerBottom">
+            <ul>
+                <li>Introduzione</li>
+                <li>Norme sulla Privacy</li>
+                <li>Termini di servizio</li>
+                <li>Tecnologie</li>
+                <li class="faq">Domande Frequenti</li>
+            </ul>
+
+        </div>
+    </div>
+
+
+</header>
 
 <div class="mainSection">
 
